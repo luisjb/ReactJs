@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Dell i900",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 2000,
+    "stock": 4,
+    "category": "Notebook"
+  },
+  {
+    "id": 2,
+    "name": "Lenovo Thinkbook",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 1200,
+    "stock": 7,
+    "category": "Notebook"
+  },
+  {
+    "id": 3,
+    "name": "HP Omen",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 800,
+    "stock": 10,
+    "category": "Notebook"
+  },
+  {
+    "id": 4,
+    "name": "RTX 4090i",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 4000,
+    "stock": 2,
+    "category": "Accesorios"
+  },
+  {
+    "id": 5,
+    "name": "SSD M.2 980Gb",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 200,
+    "stock": 5,
+    "category": "Accesorios"
+  },
+  {
+    "id": 6,
+    "name": "Mouse RedDragon",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 400,
+    "stock": 6,
+    "category": "Perifericos"
+  },
+  {
+    "id": 7,
+    "name": "Parlantes BOSE",
+    "description":
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+    "price": 600,
+    "stock": 2,
+    "category": "Perifericos"
+  }
+]

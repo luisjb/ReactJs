@@ -6,14 +6,15 @@ import { CartContext } from "../contexts/ShoppingCartContext";
 const ItemCount = ({ stock, id, price, name }) => {
   const [cart, setCart] = useContext(CartContext);
   const [count, setCount] = useState(1);
+  
+  const substractQty = () => {
+    setCount(count - 1);
+  };
 
   const addQty = () => {
     setCount(count + 1);
   };
 
-  const substractQty = () => {
-    setCount(count - 1);
-  };
 
   const addToCart = () => {
     setCart((currItems) => {

@@ -2,11 +2,28 @@ import { Center, Card, CardBody, Image, Stack, Heading, Text, CardFooter, Divide
 import notebook from "../assets/notebook.png";
 import { useParams } from "react-router-dom";
 import ItemCount from "./ItemCount";
+import { useEffect, useState } from "react";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
 const ItemDetail = ({ comp }) => {
   const { id } = useParams();
   // console.log(id);
+  const [producto, setProducto] = useState([]);
 
+  useEffect(() => {
+    const db = getFirestore();
+
+    const compRef = doc(db, "computacion", `${id}`);
+
+    getDoc(compRef).then((snapshot) => {
+      if (snapshot.exists()) {
+        setProducto(snapshot.data());
+      } else {
+        console.log("No such document!");
+      }
+    });
+  }, []);
+  
   const compFilter = comp.filter((comp) => comp.id == id);
 
   return (
